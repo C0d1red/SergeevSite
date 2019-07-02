@@ -1,0 +1,401 @@
+body{
+	margin: 0 0;
+	background-color: #282828;
+	background-image: url(img/proba.jpg);
+	background-attachment: fixed;
+	width: 100%;
+	background-size: cover;
+}
+
+div.logo{
+	height: 115px;
+	width: 100%;
+	background-size: cover;
+}
+
+div.lgwr{
+	color: #fff;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.SERGEEV{
+	font-size: 60px;
+}
+
+div.PRAY{
+	font-size: 30px;
+	font-family: 'Parsek', arial;
+}
+
+div.menubg{
+	background-color: rgba(14, 14, 14, 0.8);
+}
+
+div.menubar{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 960px;
+	font-size: 30px;
+	color: #fff;
+}
+
+
+
+ul > li {
+	display: inline;
+	list-style: none;
+	padding: 37px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+li.marked{
+	color: #ff0000;
+}
+
+ul, li { 
+    padding: 0; 
+    margin: 0; 
+}
+
+div.background_discr{
+ 	padding: 0 0;
+ 	width: 960px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+table.shop{
+	padding: 0 0;
+ 	width: 960px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+a{
+	 text-decoration: none;
+	 color: #fff;
+	 transition: color 256ms;
+}
+
+div#rotator{
+	position: relative; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+div#rotator ul li{
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute; 
+	list-style: none;
+	display: block;
+	padding: 0 0;
+	padding-top: 10px;
+}
+
+div#rotator ul li.show{
+	z-index:500;
+}
+
+iframe.vid{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 560px;
+}
+
+video.vid{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 560px;
+}
+
+div.colont{
+	background-color: #000;
+	height: 170px;	
+	margin-top: 10px;
+	color: #d3d3d3;
+	font-size: 40px;
+}
+
+div.colinf{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.cp{
+	text-align: center;
+	font-size: 20px;
+
+}
+
+p.pr{
+	font-size: 0px;
+}
+
+a:hover{
+	color: #d3d3d3;
+}
+
+img.shop_img{
+	border: 3px solid #000000;
+	max-width:280px;
+	max-height:auto;
+}
+
+td{
+		padding: 20px;
+
+}
+
+img.vk{
+	max-width:30px;
+	max-height:30px;
+}
+
+img.in{
+	max-width:30px;
+	max-height:30px;
+}
+
+img.ph{
+	max-width:30px;
+	max-height:30px;
+}
+
+div.price{
+	opacity: 1.0;
+	transition: opacity 256ms;
+}
+
+div.price:hover{
+	opacity: 0.5;
+}
+
+div.price{
+	display:inline-block;   
+    position:relative;
+}
+
+span{
+-ms-user-select: none;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+
+    position:absolute;
+    top:8px;   
+    left:4px;
+     
+    color:#d3d3d3;
+	font-family: 'Parsek', arial;
+    font-size:20px; 
+     
+    border-radius: 100px;
+    border: 3px solid #141414;
+    background-color: #141414;
+    padding:5px 20px;
+
+    overflow:hidden;
+}
+
+table.goods{
+	padding: 0 0;
+ 	width: 960px;
+ 	margin-top: 20px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+img.goods_img{
+	border: 3px solid #000000;
+	max-width: 360px;
+	max-height:auto;
+}
+span.buy{
+	display:inline-block;   
+    position:relative;
+    opacity: 1.0;
+    transition: opacity 256ms;
+}
+
+span.buy:hover{
+	opacity: 0.7;
+}
+
+td.buy_td{
+	padding: 5px;
+}
+
+h1{
+	color: #d3d3d3;
+}
+
+p{
+	color: #d3d3d3;
+}
+
+
+#slider { /*положение слайдера*/
+    position: relative;
+	text-align: center;
+    top: 10px;
+}
+
+#slider{ /*центровка слайдера*/
+	margin: 0 auto;
+}
+
+#slides article{ /*все изображения справа друг от доруга*/
+	width: 20%;
+	float: left;
+}
+
+#slides .image{ /*устанавливает общий размер блока с изображениями*/
+	width: 500%;
+	line-height: 0;
+}
+
+#overflow{ /*сркывает все, что находится за пределами этого блока*/
+	width: 366px;
+	overflow: hidden;
+}
+
+article img{ /*размер изображений слайдера*/
+	width: 100%;
+}
+
+#desktop:checked ~ #slider{ /*размер всего слайдера*/
+	max-width: 960px; /*максимальнная длинна*/
+}
+
+
+{
+	background: url('prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+	float: left;
+	margin: 0 0 0 -84px; /*сдвиг влево*/
+	display: block;
+	height: 68px;
+	width: 68px;
+}
+
+
+{
+	background: url('next.png') no-repeat; /*заливка фона картинкой без повторений*/
+	float: right;
+	 /*сдвиг вправо*/
+	display: block;
+	height: 68px;
+	width: 68px;
+}
+
+label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+	cursor: pointer;
+}
+
+.all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+	display: none;
+	
+}
+
+div.all{
+	max-width: 360px;
+}
+
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image{
+	margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image{
+	margin-left: -100%;
+}
+
+
+
+
+#active label{ /*стиль отдельного переключателя*/
+	border-radius: 10px; /*скругление углов*/
+	display: inline-block; /*расположение в строку*/
+	width: 15px;
+	height: 15px;
+	background: #bbb;
+}
+
+#active{ /*расположение блока с переключателями*/
+	
+	text-align: center;
+	padding: 0 0;
+ 	margin-top: 10px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+#active label:hover{ /*поведение чекбокса при наведении*/
+	background: #76c8ff;
+	border-color: #777 !important; /*выполнение в любом случае*/
+}
+
+/*цвет активного лейбла при активации чекбокса*/
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2){
+	background: #141414;
+	border-color: #141414 !important;
+}
+
+#slides .image{ /*анимация пролистывания изображений*/
+	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*div.header
+{
+	height: 100px;
+	background-color: #282828;
+	text-decoration-color: #d3d3d3;
+	font-size: 40px;
+}
+
+div.gg
+{
+	color: #d3d3d3;
+}
+
+div.gf
+{
+	color: #d3d3d3;
+	font-size: 15px;
+}
+
+div.bodier
+{
+	font-size: 40px;
+}
+
+div.gn
+{
+	color: #ff0000;
+	font-size: 15px;
+}
+
+
