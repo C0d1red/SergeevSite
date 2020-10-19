@@ -1,2 +1,2 @@
-# sergeevSite
+# SergeevSite
 Unfinished web-site
